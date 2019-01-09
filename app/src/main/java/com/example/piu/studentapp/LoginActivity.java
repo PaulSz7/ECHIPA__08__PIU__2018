@@ -1,5 +1,6 @@
 package com.example.piu.studentapp;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -62,8 +63,8 @@ public class LoginActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        //            Intent intent = new Intent(this, OffersListActivity.class);
-        //            startActivity(intent);
+//            Intent intent = new Intent(this, MainMenu.class);
+//            startActivity(intent);
         }
         else if (username.getText().toString().equals("student") && password.getText().toString().equals("password")) {
             resultMsg.setText("Login successfull (student)!");
@@ -74,8 +75,8 @@ public class LoginActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            //            Intent intent = new Intent(this, OffersListActivity.class);
-            //            startActivity(intent);
+            Intent intent = new Intent(this, MainMenu.class);
+            startActivity(intent);
         }
         else {
             resultMsg.setText("Login failed\nUsername or password is incorrect!");

@@ -1,7 +1,10 @@
 package com.example.piu.studentapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -14,9 +17,9 @@ public class MainMenu extends AppCompatActivity {
     TextView tvUsername = null;
     TextView tvPoints = null;
 
-    TextView subject1 = null;
-    TextView subject2 = null;
-    TextView subject3 = null;
+    Button subject1 = null;
+    Button subject2 = null;
+    Button subject3 = null;
 
     EditText etSearch = null;
     ImageView ivSearch = null;
@@ -33,9 +36,7 @@ public class MainMenu extends AppCompatActivity {
         ivNotif = findViewById(R.id.iv_notifIcon);
         ivPointsIcon = findViewById(R.id.iv_pointsIcon);
         tvUsername = findViewById(R.id.tv_username);
-        tvUsername.setText("Julia Pop");
         tvPoints = findViewById(R.id.tv_points);
-        tvPoints.setText("37.50");
 
         subject1 = findViewById(R.id.sub1);
         subject2 = findViewById(R.id.sub2);
@@ -43,10 +44,12 @@ public class MainMenu extends AppCompatActivity {
 
         etSearch = findViewById(R.id.et_search);
         ivSearch = findViewById(R.id.iv_search);
+    }
 
-
-
-
-
+    public void onClick(View view) {
+        if (view == subject1) {
+            Intent intent = new Intent(this, StudentMenuActivity.class);
+            startActivity(intent);
+        }
     }
 }
