@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/textview_border">
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="-45dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/forum"
+        android:background="@drawable/black_border"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/lightPink"
+        android:padding="10dp"
+        android:text="Forum"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/black_border"
+        android:src="@drawable/ranking"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/lightPink"
+        android:padding="10dp"
+        android:text="Ranking"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/iv_chatIcon"
+            android:layout_alignStart="@+id/iv_profile"
+            android:layout_marginBottom="-30dp" />
+
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/blank_profile_picture_973460_640" />
+
+        <ImageView
+            android:id="@+id/iv_chatIcon"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignStart="@+id/iv_profile"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-34dp"
+            android:layout_marginTop="46dp"
+            android:src="@drawable/filled_chat" />
+
+        <ImageView
+            android:id="@+id/iv_notifIcon"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignTop="@+id/iv_chatIcon"
+            android:layout_alignEnd="@+id/iv_profile"
+            android:layout_marginTop="37dp"
+            android:layout_marginEnd="105dp"
+            android:src="@drawable/img_489991" />
+
+        <ImageView
+            android:id="@+id/iv_pointsIcon"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/iv_profile"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="135dp"
+            android:src="@drawable/gold_coins_icon_20" />
+
+        <TextView
+            android:id="@+id/tv_points"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/tv_username"
+            android:layout_alignBottom="@+id/iv_pointsIcon" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="123dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:id="@+id/sub1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/lightGrey"
+            android:text="Proiectarea Interfetelor Utilizator"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/sub2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/lightPink"
+            android:text="Proiectarea translatoarelor"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/sub3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/lightGrey"
+            android:text="Sisteme distribuite"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:padding="5dp"/>
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/edittext_theme"
+        android:hint="Search Subject"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_theme"
+        android:src="@drawable/search" />
+
+</RelativeLayout>
