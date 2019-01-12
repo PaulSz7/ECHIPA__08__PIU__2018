@@ -25,8 +25,11 @@
             android:src="@drawable/forum" />
 
         <TextView
+            android:id="@+id/tv_forum"
             android:layout_width="100dp"
             android:layout_height="40dp"
+            android:clickable="true"
+            android:onClick="onClick"
             android:layout_alignParentStart="true"
             android:layout_marginStart="65dp"
             android:layout_marginTop="30dp"
@@ -64,7 +67,7 @@
             android:layout_above="@+id/iv_chatIcon"
             android:layout_alignStart="@+id/iv_profile"
             android:layout_marginBottom="-30dp"
-            android:text="Julia Pop" />
+            android:text="Student" />
 
 
         <ImageView

@@ -22,7 +22,10 @@
         <activity android:name=".MainMenu" />
         <activity android:name=".CheckInActivity" />
         <activity android:name=".RatingActivity" />
-        <activity android:name=".StudentMenuActivity"></activity>
+        <activity android:name=".StudentMenuActivity">
+        </activity>
+        <activity android:name=".QuestionActivity"/>
+        <activity android:name=".ForumActivity"/>
     </application>
 
 </manifest>
