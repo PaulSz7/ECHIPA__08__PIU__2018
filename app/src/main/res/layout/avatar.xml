@@ -82,6 +82,7 @@
 
         <ImageView
             android:id="@+id/iv_chatIcon"
+            android:onClick="onClick"
             android:layout_width="27dp"
             android:layout_height="27dp"
             android:layout_alignStart="@+id/iv_profile"

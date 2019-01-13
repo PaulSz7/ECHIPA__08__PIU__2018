@@ -22,10 +22,13 @@
         <activity android:name=".MainMenu" />
         <activity android:name=".CheckInActivity" />
         <activity android:name=".RatingActivity" />
-        <activity android:name=".StudentMenuActivity">
-        </activity>
-        <activity android:name=".QuestionActivity"/>
-        <activity android:name=".ForumActivity"/>
+        <activity android:name=".StudentMenuActivity" />
+        <activity android:name=".QuestionActivity" />
+        <activity android:name=".ForumActivity" />
+        <activity
+            android:name=".ChatActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".PrivateChatActivity"></activity>
     </application>
 
 </manifest>
