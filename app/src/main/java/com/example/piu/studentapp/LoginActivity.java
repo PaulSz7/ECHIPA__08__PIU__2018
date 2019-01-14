@@ -28,11 +28,11 @@ public class LoginActivity extends AppCompatActivity {
         boolean letLogin = true;
 
         if (username.getText().length() == 0) {
-            usernameError.setText("Username cannot be empty!");
+            usernameError.setText("Campul nume utilizator nu poate fi gol!");
             letLogin = false;
         }
         else if (username.getText().length() < 3 && username.getText().length() != 0) {
-            usernameError.setText("Username is too short!");
+            usernameError.setText("Numele de utilizator este prea scurt!");
             letLogin = false;
         }
         else {
@@ -40,11 +40,11 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         if (password.getText().length() == 0) {
-            passwordError.setText("Password cannot be empty!");
+            passwordError.setText("Campul parola nu poate fi gol!");
             letLogin = false;
         }
         else if (password.getText().length() < 3 && password.getText().length() != 0) {
-            passwordError.setText("Password is too short!");
+            passwordError.setText("Parola este prea scurta!");
             letLogin = false;
         }
         else {
@@ -54,8 +54,8 @@ public class LoginActivity extends AppCompatActivity {
         TextView resultMsg = (TextView) findViewById(R.id.resultMsg);
         if (!letLogin) return;
 
-        if (username.getText().toString().equals("profesor") && password.getText().toString().equals("password")) {
-            resultMsg.setText("Login successful (profesor)!");
+        if (username.getText().toString().equals("profesor") && password.getText().toString().equals("parola")) {
+            resultMsg.setText("Autentificare reusita (PROFESOR)!");
             resultMsg.setTextColor(Color.GREEN);
 
             try {
@@ -67,8 +67,8 @@ public class LoginActivity extends AppCompatActivity {
             intent.putExtra("role", "profesor");
             startActivity(intent);
         }
-        else if (username.getText().toString().equals("student") && password.getText().toString().equals("password")) {
-            resultMsg.setText("Login successful (student)!");
+        else if (username.getText().toString().equals("student") && password.getText().toString().equals("parola")) {
+            resultMsg.setText("Autentificare reusita (STUDENT)!");
             resultMsg.setTextColor(Color.GREEN);
 
             try {
@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity {
 
         }
         else {
-            resultMsg.setText("Login failed\nUsername or password is incorrect!");
+            resultMsg.setText("Autentificare esuata\nNume de utilizator sau parola gresita!");
             resultMsg.setTextColor(Color.RED);
         }
     }

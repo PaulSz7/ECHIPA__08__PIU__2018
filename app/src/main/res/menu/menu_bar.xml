@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/sign_out"
-        android:title="Sign out"
+        android:title="Deconectare"
         app:showAsAction="always" />
 
 </menu>
