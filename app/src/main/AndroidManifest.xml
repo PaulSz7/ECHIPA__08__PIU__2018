@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.piu.studentapp">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,6 +36,22 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".MainMenu" />
+        <activity android:name=".CheckInActivity" />
+        <activity android:name=".RatingActivity" />
+        <activity android:name=".StudentMenuActivity"></activity>
+        <activity android:name=".QuestionActivity" />
+        <activity android:name=".ForumActivity" />
+        <activity android:name=".ShopActivity" />
+        <activity
+            android:name=".ChatActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".PrivateChatActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".NotificationActivity"
+            android:theme="@style/AppTheme.NotificationTheme" />
         <activity android:name=".CoursesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +59,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".CourseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,7 +66,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Quiz1Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -57,7 +73,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Quiz2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -65,7 +80,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Quiz3Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -73,7 +87,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".FinishQuiz">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -81,7 +94,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".ProfesorMenuActivity"></activity>
     </application>
 
 </manifest>

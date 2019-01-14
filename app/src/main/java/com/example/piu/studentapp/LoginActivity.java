@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         TextView passwordError = (TextView) findViewById(R.id.passwordError);
 
         boolean letLogin = true;
-/*
+
         if (username.getText().length() == 0) {
             usernameError.setText("Username cannot be empty!");
             letLogin = false;
@@ -49,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         }
         else {
             passwordError.setText("");
-        }*/
+        }
 
         TextView resultMsg = (TextView) findViewById(R.id.resultMsg);
         if (!letLogin) return;
@@ -63,10 +63,11 @@ public class LoginActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        //            Intent intent = new Intent(this, OffersListActivity.class);
-        //            startActivity(intent);
+            Intent intent = new Intent(this, MainMenu.class);
+            intent.putExtra("role", "profesor");
+            startActivity(intent);
         }
-        else if (username.getText().toString().equals("") && password.getText().toString().equals("")) {
+        else if (username.getText().toString().equals("student") && password.getText().toString().equals("password")) {
             resultMsg.setText("Login successful (student)!");
             resultMsg.setTextColor(Color.GREEN);
 
@@ -75,10 +76,11 @@ public class LoginActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            //            Intent intent = new Intent(this, OffersListActivity.class);
-            //            startActivity(intent);
-            Intent I=new Intent(LoginActivity.this, ReportsActivity.class);
-            startActivity(I);
+
+            Intent intent = new Intent(this, MainMenu.class);
+            intent.putExtra("role", "student");
+            startActivity(intent);
+
         }
         else {
             resultMsg.setText("Login failed\nUsername or password is incorrect!");

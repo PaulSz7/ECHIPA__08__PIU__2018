@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_forum"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="264dp"
+        android:background="@drawable/forum_section">
+
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="234dp"
+            android:layout_marginBottom="295dp"
+            android:padding="5dp"
+            android:text="Student1 asked:"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/iv_user"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="-230dp"
+            android:layout_toStartOf="@+id/tv_user"
+            android:src="@drawable/blank_profile_picture_973460_640" />
+
+        <TextView
+            android:id="@+id/text_comment"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/forum_section"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="5dp"
+            android:text="What permission do I need to access Internet from an Android application?"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/text_comment"
+            android:layout_alignParentEnd="true"
+            android:text="11 Ian 2019"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_ans"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:layout_above="@+id/text_comment"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="-28dp"
+            android:text="2 answers"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_forum"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-264dp"
+        android:layout_marginBottom="5dp"
+
+        android:background="@drawable/bottom_border">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/blank_profile_picture_973460_640" />
+
+        <TextView
+            android:id="@+id/tv_resp2"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="6dp"
+            android:padding="5dp"
+            android:text="Student4 replied:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_resp_date2"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+
+            android:layout_alignBaseline="@+id/tv_resp2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:text="11 Ian 2019"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:padding="8dp"
+            android:layout_marginTop="35dp"
+            android:text="Add the INTERNET permission to your manifest file.
+You have to add this line:
+
+uses-permission android:name='android.permission.INTERNET'
+
+outside the application tag in your AndroidManifest.xml
+" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/bottom_border">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/blank_profile_picture_973460_640" />
+
+        <TextView
+            android:id="@+id/tv_resp3"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="6dp"
+            android:padding="5dp"
+            android:text="Student4 replied:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_resp_date3"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+
+            android:layout_alignBaseline="@+id/tv_resp3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:text="11 Ian 2019"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:padding="8dp"
+            android:layout_marginTop="55dp"
+            android:text="uses-permission android:name='android.permission.INTERNET'
+uses-permission android:name='android.permission.ACCESS_NETWORK_STATE'"/>
+
+/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/bottom_border">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/blank_profile_picture_973460_640" />
+
+        <TextView
+            android:id="@+id/tv_resp"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="6dp"
+            android:padding="5dp"
+            android:text="Student4 replied:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_resp_date"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+
+            android:layout_alignBaseline="@+id/tv_resp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:text="11 Ian 2019"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:padding="8dp"
+            android:layout_marginTop="55dp"
+            android:text="In the latest release of Google Play, Google removed the need to ask permission for internet as ;most apps need it anyways nowadays'. However, for users who have older versions, it is still recommended to leave the code below in your manifest
+
+uses-permission android:name='android.permission.INTERNET'
+" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
