@@ -64,6 +64,9 @@ public class Quiz2Activity extends AppCompatActivity {
                     score = 0;
                 }
                 Intent I=new Intent(Quiz2Activity.this, Quiz3Activity.class);
+                String oponentName = getIntent().getStringExtra("oponentName");
+                System.out.println("***********************" + oponentName);
+                I.putExtra("oponentName", oponentName);
                 startActivity(I);
             }
         }.start();
@@ -90,6 +93,9 @@ public class Quiz2Activity extends AppCompatActivity {
         }
         else {
             Intent I = new Intent(Quiz2Activity.this, Quiz3Activity.class);
+            String oponentName = getIntent().getStringExtra("oponentName");
+            I.putExtra("oponentName", oponentName);
+            System.out.println("***********************" + oponentName);
             startActivity(I);
             countDownTimer.cancel();
         }

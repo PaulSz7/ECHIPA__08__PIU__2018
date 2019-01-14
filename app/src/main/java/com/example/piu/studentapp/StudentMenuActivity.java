@@ -61,8 +61,13 @@ public class StudentMenuActivity extends AppCompatActivity {
             case R.id.sub_quiz:
                 myClass = Quiz1Activity.class;
                 break;
+<<<<<<< HEAD
             case R.id.sub_laboratoare:
                 myClass = LaboratorActivity.class;
+=======
+            case R.id.sub_leaderboard:
+                myClass = LeaderboardActivity.class;
+>>>>>>> debf13aa8027a1069c27bf42401b5ef90e4f3204
                 break;
             default:
                 myClass = LoginActivity.class;
