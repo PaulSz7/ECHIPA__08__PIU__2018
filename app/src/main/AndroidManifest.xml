@@ -92,14 +92,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfesorMenuActivity" />
-<<<<<<< HEAD
         <activity android:name=".LaboratorActivity" />
         <activity android:name=".LabGuide" />
         <activity android:name=".LabRequirements" />
         <activity android:name=".LabWork"></activity>
-=======
         <activity android:name=".LeaderboardActivity"></activity>
->>>>>>> debf13aa8027a1069c27bf42401b5ef90e4f3204
+
+        <activity android:name=".LeaderboardActivity"></activity>
     </application>
 
 </manifest>
