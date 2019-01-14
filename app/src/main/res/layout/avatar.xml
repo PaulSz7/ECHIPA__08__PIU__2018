@@ -93,6 +93,7 @@
 
         <ImageView
             android:id="@+id/iv_notifIcon"
+            android:onClick="onClick"
             android:layout_width="27dp"
             android:layout_height="27dp"
             android:layout_alignTop="@+id/iv_chatIcon"

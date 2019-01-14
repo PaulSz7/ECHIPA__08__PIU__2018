@@ -40,6 +40,9 @@
         <activity
             android:name="com.example.piu.studentapp.PrivateChatActivity"
             android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.piu.studentapp.NotificationActivity"
+            android:theme="@style/AppTheme.NotificationTheme" />
     </application>
 
 </manifest>

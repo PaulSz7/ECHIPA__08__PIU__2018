@@ -28,9 +28,11 @@
         <activity
             android:name=".ChatActivity"
             android:windowSoftInputMode="adjustPan" />
-
-        <activity android:name=".PrivateChatActivity"
-            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".PrivateChatActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".NotificationActivity"
+            android:theme="@style/AppTheme.NotificationTheme"/>
     </application>
 
 </manifest>
