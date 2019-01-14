@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_rate_title"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="RATE"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_prof_picture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="79dp"
+        android:src="@drawable/blank_profile_picture_973460_640" />
+
+
+    <TextView
+        android:id="@+id/tv_name_prof"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="79dp"
+        android:text="Profesor 1 "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtRatingValue"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="80dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20sp"
+        android:background="@drawable/textview_border"/>
+
+
+    <RatingBar
+        android:id="@+id/ratingStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_rate_professor"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="29dp"
+        android:numStars="1"
+        android:rating="1.0"
+
+        android:stepSize="1.0" />
+
+
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginTop="140dp"
+        android:background="@drawable/textview_border">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+        <TextView
+            android:id="@+id/tv_feedback"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:text="Student1:"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_feedback2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="40dp"
+            android:text="The teacher is very good at teaching and explaining."
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_feedback3"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="96dp"
+            android:text="Student2:"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_feedback4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="126dp"
+            android:text="He's absolutely awesome at teaching but sometimes the course matter seems a little boring."
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/tv_feedback5"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="200dp"
+            android:text="Student3:"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_feedback6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="230dp"
+            android:text="He is obviously an expert in this field, and it was great to be able to learn from him. He's a very dynamic and attention-grabbing lecturer"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:numStars="5"
+        android:rating="1.0"
+        android:stepSize="1.0" />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="400dp"
+        android:hint="Feedback..."
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="457dp"
+        android:text="Submit" />
+
+</RelativeLayout>

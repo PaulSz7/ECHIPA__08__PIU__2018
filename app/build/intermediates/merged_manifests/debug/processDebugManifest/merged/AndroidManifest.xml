@@ -49,6 +49,7 @@
         <activity android:name="com.example.piu.studentapp.QuestionActivity" />
         <activity android:name="com.example.piu.studentapp.ForumActivity" />
         <activity android:name="com.example.piu.studentapp.ShopActivity" />
+        <activity android:name="com.example.piu.studentapp.FeedbackActivity" />
         <activity
             android:name="com.example.piu.studentapp.ChatActivity"
             android:windowSoftInputMode="adjustPan" />

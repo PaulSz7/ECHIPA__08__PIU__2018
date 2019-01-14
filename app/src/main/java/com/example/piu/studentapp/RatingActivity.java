@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,9 +20,6 @@ public class RatingActivity extends AppCompatActivity {
     private TextView tvRateTitle = null;
     private TextView tvProfessor = null;
     private ImageView ivProfessor = null;
-    private TextView tvRatingResult = null;
-    private RatingBar ratingBar = null;
-    private Button btnSubmit = null;
 
 
     private AlertDialog alertDialog;
@@ -29,52 +27,35 @@ public class RatingActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.rating_activity);
+        setContentView(R.layout.feedback_activity);
 
         tvRateTitle = findViewById(R.id.tv_rate_title);
         tvProfessor = findViewById(R.id.tv_rate_professor);
         ivProfessor = findViewById(R.id.iv_prof_picture);
 
-        addListenerOnRatingBar();
-        addListenerOnButton();
+
+        registerForContextMenu(tvProfessor);
     }
 
-    public void addListenerOnRatingBar() {
-
-        ratingBar = findViewById(R.id.ratingBar);
-        tvRatingResult = findViewById(R.id.txtRatingValue);
-
-        //if rating value is changed,
-        //display the current rating value in the result (textview) automatically
-        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
-            public void onRatingChanged(RatingBar ratingBar, float rating,
-                                        boolean fromUser) {
-
-                tvRatingResult.setText(String.valueOf(rating));
-
-            }
-        });
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
+        super.onCreateContextMenu(menu, v, menuInfo);
+        menu.setHeaderTitle("Profesori");
+        menu.add(0, v.getId(), 0, "Profesor 1");
+        menu.add(0, v.getId(), 0, "Profesor 2");
     }
 
 
-    public void addListenerOnButton() {
 
-        ratingBar = findViewById(R.id.ratingBar);
-        btnSubmit = findViewById(R.id.btnSubmit);
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        if(item.getTitle() == "Profesor 1"){
+            Intent intent = new Intent(this, FeedbackActivity.class);
+            startActivity(intent);
+        }
 
-        //if click on me, then display the current rating value.
-        btnSubmit.setOnClickListener(new View.OnClickListener() {
+        return super.onContextItemSelected(item);
 
-            @Override
-            public void onClick(View v) {
-
-                Toast.makeText(RatingActivity.this,
-                        String.valueOf(ratingBar.getRating()),
-                        Toast.LENGTH_SHORT).show();
-
-            }
-
-        });
 
     }
 

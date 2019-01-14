@@ -808,6 +808,8 @@ id listMode
 id listView
 id list_item
 id loginBtn
+id menu_item_id1
+id menu_item_id2
 id message
 id middle
 id moneyAmount
@@ -840,6 +842,7 @@ id progress_horizontal
 id question
 id radio
 id ratingBar
+id ratingStar
 id resultMsg
 id rgroup
 id right
@@ -940,7 +943,14 @@ id tv_ans3
 id tv_date
 id tv_date2
 id tv_date3
+id tv_feedback
+id tv_feedback2
+id tv_feedback3
+id tv_feedback4
+id tv_feedback5
+id tv_feedback6
 id tv_forum
+id tv_name_prof
 id tv_points
 id tv_rate_professor
 id tv_rate_title
@@ -1017,6 +1027,7 @@ layout activity_student_menu
 layout avatar
 layout avatar2
 layout checkin_activity
+layout feedback_activity
 layout forum_activity
 layout forum_answers
 layout main_menu
@@ -1026,13 +1037,14 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout rating_activity
 layout row_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout shop_item
+layout student_feedback
 layout support_simple_spinner_dropdown_item
+menu context_menu
 menu menu_bar
 mipmap ic_launcher
 mipmap ic_launcher_round
