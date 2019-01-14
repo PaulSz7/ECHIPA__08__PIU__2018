@@ -45,6 +45,7 @@ public class PrivateChatActivity extends AppCompatActivity {
         data.setText(df.format(currentTime));
 
         layoutMesaj.setVisibility(View.VISIBLE);
+        messageToSend.setText("");
     }
 
     @Override
