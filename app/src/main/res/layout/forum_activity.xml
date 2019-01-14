@@ -54,7 +54,7 @@
             android:layout_marginTop="80dp"
             android:background="@color/lightPink"
             android:padding="10dp"
-            android:text="Ranking"
+            android:text="Clasament"
             android:textAlignment="center"
             android:textSize="15sp" />
 
@@ -139,7 +139,7 @@
             android:layout_marginStart="234dp"
             android:layout_marginBottom="295dp"
             android:padding="5dp"
-            android:text="Student1 asked:"
+            android:text="Pop Florin a întrebat : "
             android:textStyle="italic" />
 
         <ImageView
@@ -153,23 +153,23 @@
 
         <TextView
             android:id="@+id/text_comment"
-            android:clickable="true"
-            android:onClick="onClick"
             android:layout_width="380dp"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:background="@drawable/forum_section"
+            android:clickable="true"
             android:ellipsize="end"
             android:maxLines="2"
+            android:onClick="onClick"
             android:padding="5dp"
+            android:text="Ce permisiune este nevoie pentru a accesa Internetul dintr-o aplicație Android?"
             android:textSize="16sp"
             android:textStyle="bold"
             tools:layout_constraintLeft_creator="0"
             tools:layout_constraintTop_creator="0"
             tools:layout_editor_absoluteX="96dp"
-            tools:layout_editor_absoluteY="40dp"
-            android:text="What permission do I need to access Internet from an Android application?" />
+            tools:layout_editor_absoluteY="40dp" />
 
         <TextView
             android:id="@+id/tv_date"
@@ -189,7 +189,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="2dp"
             android:layout_marginBottom="-28dp"
-            android:text="3 answers"
+            android:text="3 răspunsuri"
             android:textAlignment="center"
             android:textStyle="italic" />
 
@@ -213,7 +213,7 @@
             android:layout_marginStart="234dp"
             android:layout_marginBottom="295dp"
             android:padding="5dp"
-            android:text="Student2 asked:"
+            android:text="Alin Vlad a întrebat : "
             android:textStyle="italic" />
 
         <ImageView
@@ -235,13 +235,13 @@
             android:ellipsize="end"
             android:maxLines="2"
             android:padding="5dp"
+            android:text="Se permite vizualizarea în mai multe linii în EditText în Android?"
             android:textSize="16sp"
             android:textStyle="bold"
             tools:layout_constraintLeft_creator="0"
             tools:layout_constraintTop_creator="0"
             tools:layout_editor_absoluteX="96dp"
-            tools:layout_editor_absoluteY="40dp"
-            android:text="Allow multi-line in EditText view in Android?" />
+            tools:layout_editor_absoluteY="40dp" />
 
         <TextView
             android:id="@+id/tv_date2"
@@ -261,7 +261,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="2dp"
             android:layout_marginBottom="-28dp"
-            android:text="1 answers"
+            android:text="1 răspunsuri"
             android:textAlignment="center"
             android:textStyle="italic" />
 
@@ -286,7 +286,7 @@
             android:layout_marginStart="234dp"
             android:layout_marginBottom="295dp"
             android:padding="5dp"
-            android:text="Student3 asked:"
+            android:text="Suciu Oana a întrebat : "
             android:textStyle="italic" />
 
         <ImageView
@@ -308,13 +308,13 @@
             android:ellipsize="end"
             android:maxLines="2"
             android:padding="5dp"
+            android:text="Cum centrez textul pe orizontală și pe verticală într-un TextView?"
             android:textSize="16sp"
             android:textStyle="bold"
             tools:layout_constraintLeft_creator="0"
             tools:layout_constraintTop_creator="0"
             tools:layout_editor_absoluteX="96dp"
-            tools:layout_editor_absoluteY="40dp"
-            android:text="How do I center text horizontally and vertically in a TextView?" />
+            tools:layout_editor_absoluteY="40dp" />
 
         <TextView
             android:id="@+id/tv_date3"
@@ -334,7 +334,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="2dp"
             android:layout_marginBottom="-28dp"
-            android:text="7 answers"
+            android:text="7 răspunsuri"
             android:textAlignment="center"
             android:textStyle="italic" />
 

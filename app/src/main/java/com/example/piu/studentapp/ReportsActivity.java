@@ -13,7 +13,8 @@ public class ReportsActivity extends AppCompatActivity {
     RadioGroup rg1;
     RadioButton answer1;
     RadioButton answer2;
-    int nrWeeks = 0;
+    static int nrWeeks = 0;
+    EditText weeks;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +25,7 @@ public class ReportsActivity extends AppCompatActivity {
         answer2 = findViewById(R.id.answer2);
         rg1  = (RadioGroup) findViewById(R.id.rgroup);
 
-        EditText weeks = (EditText) findViewById(R.id.weeks);
-        nrWeeks = Integer.parseInt(weeks.getText().toString());
-
+         weeks = (EditText) findViewById(R.id.weeks);
     }
 
     public void rbclick(View view){
@@ -35,19 +34,39 @@ public class ReportsActivity extends AppCompatActivity {
     }
 
     public void generateClick(View view) {
+        nrWeeks = Integer.parseInt(weeks.getText().toString());
+
         if(answer1.isChecked()){
-            Intent I = new Intent(ReportsActivity.this, LoginActivity.class);
-            startActivity(I);
+            if(nrWeeks > 0) {
+                Intent I = new Intent(ReportsActivity.this, AttendanceChartActivity.class);
+                startActivity(I);
+            }
+            else{
+                Toast.makeText(this, "Selecteaza numarul de saptamani !", Toast.LENGTH_SHORT).show();
+            }
         }
 
-        if(answer2.isChecked()){
-            Intent I = new Intent(ReportsActivity.this, FinishQuiz.class);
-            startActivity(I);
+        if(answer2.isChecked() ){
+            if(nrWeeks > 0){
+                Intent I = new Intent(ReportsActivity.this, AverageChartActivity.class);
+                startActivity(I);
+            }
+            else{
+                Toast.makeText(this, "Selecteaza numarul de saptamani !", Toast.LENGTH_SHORT).show();
+            }
         }
 
         if(!answer1.isChecked() && !answer2.isChecked()){
             Toast.makeText(this, "Selecteaza graficul pentru raport !", Toast.LENGTH_SHORT).show();
         }
+    }
 
+    public int weeksNumber(){
+        return nrWeeks;
+    }
+
+    public void backClick(View view) {
+        Intent I=new Intent(ReportsActivity.this, ProfesorMenuActivity.class);
+        startActivity(I);
     }
 }

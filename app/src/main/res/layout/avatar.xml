@@ -55,7 +55,7 @@
             android:layout_marginTop="80dp"
             android:background="@color/lightPink"
             android:padding="10dp"
-            android:text="Ranking"
+            android:text="Clasament"
             android:textAlignment="center"
             android:textSize="15sp" />
 
