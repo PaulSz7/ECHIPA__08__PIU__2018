@@ -59,6 +59,9 @@ public class MainMenu extends AppCompatActivity {
             case R.id.iv_chatIcon:
                 myClass = ChatActivity.class;
                 break;
+            case R.id.iv_notifIcon:
+                myClass = NotificationActivity.class;
+                break;
             default:
                 myClass = LoginActivity.class;
                 break;
