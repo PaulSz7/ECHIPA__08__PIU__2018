@@ -39,6 +39,7 @@ public class FinishQuiz extends AppCompatActivity {
     public void finishQuizClick(View view) {
 
         Intent I = new Intent(FinishQuiz.this, StudentMenuActivity.class);
+        I.putExtra("role","student");
         startActivity(I);
     }
 }
