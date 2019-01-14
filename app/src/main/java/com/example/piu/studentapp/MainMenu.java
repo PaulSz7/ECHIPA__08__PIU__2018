@@ -42,7 +42,7 @@ public class MainMenu extends AppCompatActivity {
         ivPointsIcon = findViewById(R.id.iv_pointsIcon);
         tvUsername = findViewById(R.id.tv_username);
         tvPoints = findViewById(R.id.tv_points);
-        tvPoints.setText(Store.sold.toString());
+//        tvPoints.setText(Store.sold.toString());
 
         subject1 = findViewById(R.id.sub1);
         subject2 = findViewById(R.id.sub2);
@@ -52,6 +52,8 @@ public class MainMenu extends AppCompatActivity {
         ivSearch = findViewById(R.id.iv_search);
 
         role = getIntent().getStringExtra("role");
+        TextView username = (TextView) findViewById(R.id.tv_username);
+        username.setText(role);
     }
 
     public void onClick(View view) {
@@ -76,6 +78,7 @@ public class MainMenu extends AppCompatActivity {
                 break;
         }
         Intent intent = new Intent(this, myClass);
+        intent.putExtra("role", role);
         startActivity(intent);
     }
 

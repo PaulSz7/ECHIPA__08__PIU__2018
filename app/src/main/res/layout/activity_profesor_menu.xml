@@ -7,7 +7,7 @@
     tools:context=".ProfesorMenuActivity">
 
     <include
-        layout="@layout/avatar"
+        layout="@layout/avatar2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

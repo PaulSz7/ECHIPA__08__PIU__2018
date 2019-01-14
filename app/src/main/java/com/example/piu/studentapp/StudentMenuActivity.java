@@ -13,6 +13,7 @@ import android.widget.TextView;
 public class StudentMenuActivity extends AppCompatActivity {
 
     private AlertDialog alertDialog;
+    String role;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,10 @@ public class StudentMenuActivity extends AppCompatActivity {
 
         TextView tvPoints = findViewById(R.id.tv_points);
         tvPoints.setText(Store.sold.toString());
+
+        role = getIntent().getStringExtra("role");
+        TextView username = (TextView) findViewById(R.id.tv_username);
+        username.setText(role);
     }
 
     public void onClick(View view) {

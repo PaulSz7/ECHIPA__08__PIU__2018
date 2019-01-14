@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 public class ProfesorMenuActivity extends AppCompatActivity {
 
+    String role;
     private AlertDialog alertDialog;
 
     @Override
@@ -19,8 +20,10 @@ public class ProfesorMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profesor_menu);
 
-        TextView tvPoints = findViewById(R.id.tv_points);
-        tvPoints.setText(Store.sold.toString());
+        role = getIntent().getStringExtra("role");
+        TextView username = (TextView) findViewById(R.id.tv_username);
+        username.setText(role);
+
     }
 
     public void onClick(View view) {
@@ -69,11 +72,5 @@ public class ProfesorMenuActivity extends AppCompatActivity {
             }
         });
         alertDialog.show();
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        TextView tvPoints = findViewById(R.id.tv_points);
-        tvPoints.setText(Store.sold.toString());
     }
 }

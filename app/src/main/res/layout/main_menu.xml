@@ -7,7 +7,7 @@
     <include
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        layout="@layout/avatar" />
+        layout="@layout/avatar2" />
 
     <LinearLayout
         android:layout_width="400dp"

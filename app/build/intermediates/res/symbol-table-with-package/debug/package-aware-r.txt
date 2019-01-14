@@ -1009,6 +1009,7 @@ layout activity_quiz_3
 layout activity_shop
 layout activity_student_menu
 layout avatar
+layout avatar2
 layout checkin_activity
 layout forum_activity
 layout forum_answers
