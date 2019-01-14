@@ -31,9 +31,11 @@
         <activity android:name="com.example.piu.studentapp.MainMenu" />
         <activity android:name="com.example.piu.studentapp.CheckInActivity" />
         <activity android:name="com.example.piu.studentapp.RatingActivity" />
-        <activity android:name="com.example.piu.studentapp.StudentMenuActivity" />
+        <activity android:name="com.example.piu.studentapp.StudentMenuActivity" >
+        </activity>
         <activity android:name="com.example.piu.studentapp.QuestionActivity" />
         <activity android:name="com.example.piu.studentapp.ForumActivity" />
+        <activity android:name="com.example.piu.studentapp.ShopActivity" />
         <activity
             android:name="com.example.piu.studentapp.ChatActivity"
             android:windowSoftInputMode="adjustPan" />
@@ -42,7 +44,7 @@
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name="com.example.piu.studentapp.NotificationActivity"
-            android:theme="@style/AppTheme.NotificationTheme" />
+            android:theme="@style/AppTheme      " />
     </application>
 
 </manifest>

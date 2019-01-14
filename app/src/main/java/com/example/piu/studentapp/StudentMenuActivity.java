@@ -31,8 +31,17 @@ public class StudentMenuActivity extends AppCompatActivity {
             case R.id.tv_forum:
                 myClass = ForumActivity.class;
                 break;
+            case R.id.sub_forum:
+                myClass = ForumActivity.class;
+                break;
             case R.id.sub_shop:
                 myClass = ShopActivity.class;
+                break;
+            case R.id.iv_chatIcon:
+                myClass = ChatActivity.class;
+                break;
+            case R.id.iv_notifIcon:
+                myClass = NotificationActivity.class;
                 break;
             default:
                 myClass = LoginActivity.class;

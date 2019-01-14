@@ -1,204 +1,211 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fb4afa997112bc1f6b3f56e7a9814f3d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78392872b8725968a772d9350ecd950a\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\558d6a5718a09352a441d271cfeabcd2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\74e7956737da2882e5d85b3913239c68\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2a2ee5bab42ea4d7ec79b420c17e13ce\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\827d3adab218c5975d239a7c27bff807\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1b825f4982fb87c8eac7e2dccd1eb303\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\1f176557dbd79648cb356ff0b6260f13\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\41ca3cbb0029cf3d8aeaa48f67a4b3ea\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\cda68ed0f2677df8be591fe2bc9a4a79\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8c494423ee744bdd8cb4a48f4a9334bc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\4c3249ee683d7599c56abb18211d4ff0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\859c1ec707676052aa8a10f1846f1690\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\12322d04e52561b39d9e72f6e1c7dc23\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a3023c0788ec60df83bdd57c2ce16401\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\79e562a913bbb0b74c827b88e3ae2b96\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\55f46a8942d29c076c48fb4787783f3d\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b127d094af82654c1238813a39711058\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7b7a34b76e80cdb36654f8d7933ca49\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\228660b83dfbd43e48071fafe3283186\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\a78391cd59323bc3f200d09fd4c30bf7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\7b818e23135d6660ce417539d75d2e30\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\dda87c52221b912efddcdf342b21b5c4\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\15660669c7053051a079adc1dd3aeb8d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\84990fd7e7219ca5a4c1ffa989c73599\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1fc7273e6de40f91ab70aed8c2fbdf53\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3e8b264ad845321221078e1e34027cac\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/03a5567bbe5309fa5af5d35176d31ea7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/attila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5e19bd26aedd8165361fde93da0422c9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/5e1f8d642365e3f7877ea3cb1b7bd749/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/18df03a51509e50ab9b51d070e4fd546/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b951514b14860e0fcbfec0ad0ea8fd2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/4e5e639401b26d55e3f0f1ac8552c9bd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/15d7cb80d6b3367fdfeaeb999e1e3eb8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/fbb9186cfdccf141699e1fffefff440f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c342e112f49c784b375072379809d0ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/07b9b96b2bc66355eae45cf13f9f4e78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/7a6369fa210a72ef9ab7b2ad32d5279c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/bd93c5b96f375403f8f36a8567e63514/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d9972d3af5a70aa4c04d7c01bbc75110/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36a372d25b17fa4d7b27a1f3d237fef4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9898cd092a7a8a02e53dc08cb2d2bba7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/de512834a595cb39529b21a7b93c6038/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/26fb1982a15b7d327a29c43ea199030f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/6c187392a1fe062f284b0fd9bb6d4694/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a5a39196b5cbb8fa69456d2c4a4582ce/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b41a8775062672805baa576303b744ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9423c9b0170cc771d19d17b77bbca869/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/526a384132ef0d4161ec84091c9d9265/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/eb431ea3fee210f303a74592c9197dc2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/403eb4d33a30214ac624d753b64edb1a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0045bfac89b1775fd5a4b1a452528243/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f48efbd2af8e66af4577227f049c699c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4fa468bdb2ad84447c12d531b5a224d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/234f0878959c3bf933a14be7212bbea4/AndroidManifest.xml:17:1-22:12
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:1-38:12
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:6:22-78
 application
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:8:5-36:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78392872b8725968a772d9350ecd950a\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78392872b8725968a772d9350ecd950a\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\79e562a913bbb0b74c827b88e3ae2b96\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\79e562a913bbb0b74c827b88e3ae2b96\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\55f46a8942d29c076c48fb4787783f3d\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\55f46a8942d29c076c48fb4787783f3d\AndroidManifest.xml:22:5-23:19
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:8:5-38:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/attila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5e19bd26aedd8165361fde93da0422c9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/attila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5e19bd26aedd8165361fde93da0422c9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/26fb1982a15b7d327a29c43ea199030f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/26fb1982a15b7d327a29c43ea199030f/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/6c187392a1fe062f284b0fd9bb6d4694/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/6c187392a1fe062f284b0fd9bb6d4694/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\79e562a913bbb0b74c827b88e3ae2b96\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/26fb1982a15b7d327a29c43ea199030f/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.example.piu.studentapp.LoginActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:15:19-48
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:15:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:19:27-74
 activity#com.example.piu.studentapp.MainMenu
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:22:9-46
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:22:9-46
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:22:19-43
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:22:19-43
 activity#com.example.piu.studentapp.CheckInActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:23:9-53
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:23:9-53
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:23:19-50
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:23:19-50
 activity#com.example.piu.studentapp.RatingActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:24:9-52
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:24:9-52
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:24:19-49
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:24:19-49
 activity#com.example.piu.studentapp.StudentMenuActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:25:9-57
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:25:9-26:20
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:25:19-54
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:25:19-54
 activity#com.example.piu.studentapp.QuestionActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:26:9-54
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:27:9-53
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:26:19-51
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:27:19-51
 activity#com.example.piu.studentapp.ForumActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:27:9-51
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:28:9-50
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:28:19-48
+activity#com.example.piu.studentapp.ShopActivity
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:29:9-49
+	android:name
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:29:19-47
 activity#com.example.piu.studentapp.ChatActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:28:9-30:55
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:30:9-32:55
 	android:windowSoftInputMode
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:30:13-52
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:32:13-52
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:29:13-41
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:31:13-41
 activity#com.example.piu.studentapp.PrivateChatActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:31:9-33:55
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:33:9-35:55
 	android:windowSoftInputMode
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:33:13-52
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:35:13-52
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:32:13-48
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:34:13-48
 activity#com.example.piu.studentapp.NotificationActivity
-ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:34:9-35:64
+ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:36:9-37:52
 	android:theme
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:35:13-62
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:37:13-50
 	android:name
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml:34:19-55
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml:36:19-55
 uses-sdk
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fb4afa997112bc1f6b3f56e7a9814f3d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\fb4afa997112bc1f6b3f56e7a9814f3d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78392872b8725968a772d9350ecd950a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\78392872b8725968a772d9350ecd950a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\558d6a5718a09352a441d271cfeabcd2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\558d6a5718a09352a441d271cfeabcd2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\74e7956737da2882e5d85b3913239c68\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\74e7956737da2882e5d85b3913239c68\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2a2ee5bab42ea4d7ec79b420c17e13ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\2a2ee5bab42ea4d7ec79b420c17e13ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\827d3adab218c5975d239a7c27bff807\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\827d3adab218c5975d239a7c27bff807\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1b825f4982fb87c8eac7e2dccd1eb303\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\1b825f4982fb87c8eac7e2dccd1eb303\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\1f176557dbd79648cb356ff0b6260f13\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\1f176557dbd79648cb356ff0b6260f13\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\41ca3cbb0029cf3d8aeaa48f67a4b3ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\41ca3cbb0029cf3d8aeaa48f67a4b3ea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\cda68ed0f2677df8be591fe2bc9a4a79\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\cda68ed0f2677df8be591fe2bc9a4a79\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8c494423ee744bdd8cb4a48f4a9334bc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\8c494423ee744bdd8cb4a48f4a9334bc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\4c3249ee683d7599c56abb18211d4ff0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\4c3249ee683d7599c56abb18211d4ff0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\859c1ec707676052aa8a10f1846f1690\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\859c1ec707676052aa8a10f1846f1690\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\12322d04e52561b39d9e72f6e1c7dc23\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\12322d04e52561b39d9e72f6e1c7dc23\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a3023c0788ec60df83bdd57c2ce16401\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\a3023c0788ec60df83bdd57c2ce16401\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\79e562a913bbb0b74c827b88e3ae2b96\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\79e562a913bbb0b74c827b88e3ae2b96\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\55f46a8942d29c076c48fb4787783f3d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\55f46a8942d29c076c48fb4787783f3d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b127d094af82654c1238813a39711058\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\b127d094af82654c1238813a39711058\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7b7a34b76e80cdb36654f8d7933ca49\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e7b7a34b76e80cdb36654f8d7933ca49\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\228660b83dfbd43e48071fafe3283186\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\228660b83dfbd43e48071fafe3283186\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\a78391cd59323bc3f200d09fd4c30bf7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\a78391cd59323bc3f200d09fd4c30bf7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\7b818e23135d6660ce417539d75d2e30\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\7b818e23135d6660ce417539d75d2e30\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\dda87c52221b912efddcdf342b21b5c4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\dda87c52221b912efddcdf342b21b5c4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\15660669c7053051a079adc1dd3aeb8d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\15660669c7053051a079adc1dd3aeb8d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\84990fd7e7219ca5a4c1ffa989c73599\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\84990fd7e7219ca5a4c1ffa989c73599\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1fc7273e6de40f91ab70aed8c2fbdf53\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1fc7273e6de40f91ab70aed8c2fbdf53\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3e8b264ad845321221078e1e34027cac\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Paul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\3e8b264ad845321221078e1e34027cac\AndroidManifest.xml:20:5-44
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/03a5567bbe5309fa5af5d35176d31ea7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/03a5567bbe5309fa5af5d35176d31ea7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/attila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5e19bd26aedd8165361fde93da0422c9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/attila/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/5e19bd26aedd8165361fde93da0422c9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/5e1f8d642365e3f7877ea3cb1b7bd749/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/5e1f8d642365e3f7877ea3cb1b7bd749/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/18df03a51509e50ab9b51d070e4fd546/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/18df03a51509e50ab9b51d070e4fd546/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b951514b14860e0fcbfec0ad0ea8fd2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b951514b14860e0fcbfec0ad0ea8fd2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/4e5e639401b26d55e3f0f1ac8552c9bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/4e5e639401b26d55e3f0f1ac8552c9bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/15d7cb80d6b3367fdfeaeb999e1e3eb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/15d7cb80d6b3367fdfeaeb999e1e3eb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/fbb9186cfdccf141699e1fffefff440f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/fbb9186cfdccf141699e1fffefff440f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c342e112f49c784b375072379809d0ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c342e112f49c784b375072379809d0ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/07b9b96b2bc66355eae45cf13f9f4e78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/07b9b96b2bc66355eae45cf13f9f4e78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/7a6369fa210a72ef9ab7b2ad32d5279c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/7a6369fa210a72ef9ab7b2ad32d5279c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/bd93c5b96f375403f8f36a8567e63514/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/bd93c5b96f375403f8f36a8567e63514/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d9972d3af5a70aa4c04d7c01bbc75110/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/d9972d3af5a70aa4c04d7c01bbc75110/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36a372d25b17fa4d7b27a1f3d237fef4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/36a372d25b17fa4d7b27a1f3d237fef4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9898cd092a7a8a02e53dc08cb2d2bba7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9898cd092a7a8a02e53dc08cb2d2bba7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/de512834a595cb39529b21a7b93c6038/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/de512834a595cb39529b21a7b93c6038/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/26fb1982a15b7d327a29c43ea199030f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/26fb1982a15b7d327a29c43ea199030f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/6c187392a1fe062f284b0fd9bb6d4694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/6c187392a1fe062f284b0fd9bb6d4694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a5a39196b5cbb8fa69456d2c4a4582ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a5a39196b5cbb8fa69456d2c4a4582ce/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b41a8775062672805baa576303b744ad/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b41a8775062672805baa576303b744ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9423c9b0170cc771d19d17b77bbca869/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9423c9b0170cc771d19d17b77bbca869/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/526a384132ef0d4161ec84091c9d9265/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/526a384132ef0d4161ec84091c9d9265/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/eb431ea3fee210f303a74592c9197dc2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/eb431ea3fee210f303a74592c9197dc2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/403eb4d33a30214ac624d753b64edb1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/403eb4d33a30214ac624d753b64edb1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0045bfac89b1775fd5a4b1a452528243/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0045bfac89b1775fd5a4b1a452528243/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f48efbd2af8e66af4577227f049c699c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/f48efbd2af8e66af4577227f049c699c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4fa468bdb2ad84447c12d531b5a224d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/attila/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4fa468bdb2ad84447c12d531b5a224d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/234f0878959c3bf933a14be7212bbea4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/attila/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/234f0878959c3bf933a14be7212bbea4/AndroidManifest.xml:20:5-44
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-		ADDED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
-		INJECTED from D:\faculta\an4sem1\PIU\ECHIPA__08__PIU__2018\app\src\main\AndroidManifest.xml
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+		ADDED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml
+		INJECTED from /media/attila/Data1/Semestrul7/PIU/StudentApp/app/src/main/AndroidManifest.xml

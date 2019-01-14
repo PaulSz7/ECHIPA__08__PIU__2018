@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\faculta\\an4sem1\\PIU\\ECHIPA__08__PIU__2018\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "/media/attila/Data1/Semestrul7/PIU/StudentApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Paul\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\fb4afa997112bc1f6b3f56e7a9814f3d\\res\\values-v18\\values-v18.xml",
+                    "source": "/home/attila/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/03a5567bbe5309fa5af5d35176d31ea7/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
