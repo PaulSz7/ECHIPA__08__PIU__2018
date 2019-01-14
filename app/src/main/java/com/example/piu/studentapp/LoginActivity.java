@@ -77,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
             }
             //            Intent intent = new Intent(this, OffersListActivity.class);
             //            startActivity(intent);
-            Intent I=new Intent(LoginActivity.this, CoursesActivity.class);
+            Intent I=new Intent(LoginActivity.this, ReportsActivity.class);
             startActivity(I);
         }
         else {
