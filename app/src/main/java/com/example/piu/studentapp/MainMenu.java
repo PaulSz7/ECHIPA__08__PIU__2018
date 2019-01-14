@@ -51,10 +51,23 @@ public class MainMenu extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        if (view == subject1) {
-            Intent intent = new Intent(this, StudentMenuActivity.class);
-            startActivity(intent);
+        Class myClass;
+        switch (view.getId()) {
+            case R.id.sub1:
+                myClass = StudentMenuActivity.class;
+                break;
+            case R.id.iv_chatIcon:
+                myClass = ChatActivity.class;
+                break;
+            case R.id.iv_notifIcon:
+                myClass = NotificationActivity.class;
+                break;
+            default:
+                myClass = LoginActivity.class;
+                break;
         }
+        Intent intent = new Intent(this, myClass);
+        startActivity(intent);
     }
 
     @Override
