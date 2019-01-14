@@ -151,7 +151,7 @@
 
         <EditText
             android:id="@+id/textMessage"
-            android:layout_width="311dp"
+            android:layout_width="289dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
@@ -163,7 +163,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:onClick="buttonClick"
-            android:text="SEND" />
+            android:text="trimite" />
 
     </LinearLayout>
 

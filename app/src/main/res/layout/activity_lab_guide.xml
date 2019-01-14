@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LabGuide">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="1 INTRODUCERE
+Dezvoltarea	de	aplicații	în	tehnologia	Android	presupune	modelarea	interfeței	utilizator	în	limbajul	XML
+specific	platformei	și	scrierea	codului	aplicației	în	limbajul	Java. Principalele	unelte	de	dezvoltare	folosite
+sunt:\n
+• Android	SDK	– pentru	lucrările	de	laborator	vom	utiliza	versiunea:	API	26:	Android	8.0	(Oreo)\n
+• Android	Studio – mediul oficial	de	dezvoltare	a	aplicațiilor	Android\n
+1.1 Obiective\n
+Prezentarea	noțiunilor	introductive	în	dezvoltarea	unei	aplicații	Android	și	realizarea	în	cursul	orelor	de
+laborator	a	unei	prime	aplicații.\n
+2 CONSIDERAŢII TEORETICE\n
+Una	dintre	caracteristicile	principale	ale	dispozitivelor	pe	care	rulează	sistemele	de	operare	Android	este
+diversitatea.	Aceasta	se	manifestă	în:\n
+• configurațiile	hardware	(procesor,	memorie,	spațiu	de	stocare,	senzori	disponibili	etc.)\n
+• rezoluțiile	disponibile\n
+• numărul	și	funcționalitatea butoanelor	hardware	disponibile\n
+O	aplicație	de	succes	trebuie	să	se	adapteze	cât	mai	bine	condițiilor	asigurate	de	fiecare	dispozitiv	și	să
+ofere	întotdeauna	maximum	de	funcționalitate.\n
+2.1 Configurațiile hardware\n
+Sistemul	 de	 operare	 Android	 este	 utilizat	 pe	 o	 gamă	 foarte	 largă	 și	 variată	 de	 dispozitive:	 televizoare,
+telefoane	mobile,	tablete,	ceasuri	etc.	O listă	completă	a	dispozitivelor	compatibile	cu	Google	Play,	poate
+fi	consultată	la	adresa:	https://docs.google.com/spreadsheets/d/16gXm7mGsXY_wQjTsRJYQVKkIjR8c3vMAliAiRs0E3c/pub?gid=0single=trueoutput=pdf\n
+2.2 Noțiuni esențiale pentru dezvoltarea de aplicații Android ce suportă mai multe
+rezoluții\n
+• dimensiunea	 ecranului – indică	 dimensiunea	 fizică	 a	 acestuia,	 măsurată	 pe	 diagonală	 și
+exprimată	cel	mai	adesea	în	inch.	Pentru	simplitate,	Android	grupează	ecranele	în	mici,	normale,
+mari și	foarte	mari.\n
+2\n
+• densitatea	 ecranului	– indică	numărul	de	pixeli	localizat	într-o	unitate de	 suprafață,	exprimată
+cel	mai	adesea	în	dots-per-inch	(dpi). Pentru	simplitate,	Android	grupează	densitățile	în	scăzute,
+normale și	mari.\n
+• orientare	– indică	orientarea	dispozitivului	în	raport	cu	utilizatorul\n
+• rezoluție	– reprezintă	numărul	total	de	pixeli	ai	afișajului\n
+• pixel	independent	de	densitate	(density-independent	pixel) – reprezintă un	pixel	virtual	utilizat\n
+în	descrierea	interfeței	utilizator	pentru	a	asigura	independența	față	de	caracteristicile	fizice	ale
+afișajelor.\n
+§ 1	dp	=	1	px	pentru	un	ecran	cu	densitatea	de	160	dpi\n
+§ px = dp * (dpi / 160)\n
+2.2.1 Tipuri de afișaje suportate de Android\n
+Pentru	simplificarea	dezvoltării	aplicațiilor,	Android	utilizează	următoarea	clasificare	a	afișajelor:\n
+• ldpi	(low)	~120dpi\n
+• mdpi	(medium)	~160dpi\n
+• hdpi	(high)	~240dpi\n
+• xhdpi	(extra-high)	~320dpi\n
+• xxhdpi	(extra-extra-high)	~480dpi\n
+• xxxhdpi	(extra-extra-extra-high)	~640dpi"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
