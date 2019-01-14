@@ -30,6 +30,12 @@ public class ChatActivity extends AppCompatActivity {
 
         arrayList.add("Alina Pop");
         arrayList.add("Florin Coman");
+        arrayList.add("Alex Socaci");
+        arrayList.add("Julia Pop");
+        arrayList.add("Attila Szekely");
+        arrayList.add("Paul Szabo");
+        arrayList.add("Cristiano Ronaldo");
+        arrayList.add("Teodor Stefanut");
 
         ListView list = (ListView) findViewById(R.id.listView);
         adapter= new ChatListAdapter(arrayList);

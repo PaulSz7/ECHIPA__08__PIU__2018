@@ -29,7 +29,7 @@ public class NotificationActivity extends Activity {
         Class myClass;
         switch (view.getId()) {
             case R.id.linearLayout5:
-                myClass = LoginActivity.class;//Quiz
+                myClass = Quiz1Activity.class;
                 break;
             case R.id.linearLayout7:
                 myClass = ForumActivity.class;

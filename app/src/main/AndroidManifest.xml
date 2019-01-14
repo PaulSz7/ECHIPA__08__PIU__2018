@@ -31,10 +31,10 @@
             android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".PrivateChatActivity"
-            android:windowSoftInputMode="adjustPan" />
+            android:windowSoftInputMode="stateVisible|adjustResize" />
         <activity
             android:name=".NotificationActivity"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme.NotificationTheme" />
         <activity android:name=".CoursesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
