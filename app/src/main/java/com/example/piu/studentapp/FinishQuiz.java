@@ -32,6 +32,8 @@ public class FinishQuiz extends AppCompatActivity {
 
         int money = s*200;
         moneyWon.setText(String.format("%d", money));
+
+        Store.sold += money;
     }
 
     public void finishQuizClick(View view) {

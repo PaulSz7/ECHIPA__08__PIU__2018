@@ -1,5 +1,5 @@
 package com.example.piu.studentapp;
 
 public class Store {
-    public static String sold = "37.5";
+    public static Integer sold = 1050;
 }

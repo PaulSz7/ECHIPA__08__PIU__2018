@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class StudentMenuActivity extends AppCompatActivity {
 
@@ -17,9 +18,18 @@ public class StudentMenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_menu);
+
+        TextView tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
     }
 
     public void onClick(View view) {
+        if (view.getId() == R.id.sub_shop) {
+            Intent intent = new Intent(this, ShopActivity.class);
+            startActivityForResult(intent, 0);
+            return;
+        }
+
         Class myClass;
         switch (view.getId()) {
             case R.id.sub_harta:
@@ -33,9 +43,6 @@ public class StudentMenuActivity extends AppCompatActivity {
                 break;
             case R.id.sub_forum:
                 myClass = ForumActivity.class;
-                break;
-            case R.id.sub_shop:
-                myClass = ShopActivity.class;
                 break;
             case R.id.iv_chatIcon:
                 myClass = ChatActivity.class;
@@ -91,5 +98,11 @@ public class StudentMenuActivity extends AppCompatActivity {
             }
         });
         alertDialog.show();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        TextView tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
     }
 }

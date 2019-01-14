@@ -41,6 +41,7 @@ public class MainMenu extends AppCompatActivity {
         ivPointsIcon = findViewById(R.id.iv_pointsIcon);
         tvUsername = findViewById(R.id.tv_username);
         tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
 
         subject1 = findViewById(R.id.sub1);
         subject2 = findViewById(R.id.sub2);

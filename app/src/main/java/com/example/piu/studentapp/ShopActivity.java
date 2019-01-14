@@ -26,6 +26,9 @@ public class ShopActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop);
 
+        TextView tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
+
         itemList = new ArrayList<ShopItem>();
 
         itemList.add(new ShopItem("+ 1 Punct la examen", 5000));
@@ -49,7 +52,8 @@ public class ShopActivity extends AppCompatActivity {
                 int sold = Integer.parseInt(soldView.getText().toString());
 
                 if (sold >= itemList.get(position).price) {
-                    soldView.setText(new Integer(sold - itemList.get(position).price).toString());
+                    Store.sold = Store.sold - itemList.get(position).price;
+                    soldView.setText(Store.sold.toString());
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(parent.getContext());
                     builder
