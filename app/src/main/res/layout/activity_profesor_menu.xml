@@ -7,47 +7,148 @@
     tools:context=".ProfesorMenuActivity">
 
     <include
+        android:id="@+id/prof_menu_avatar"
         layout="@layout/avatar2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="321dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/prof_menu_avatar"
         android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
-        android:layout_marginBottom="20dp"
-        android:orientation="vertical"
-        android:padding="20dp">
+        android:layout_marginTop="0dp">
 
-        <Button
-            android:id="@+id/sub_cursuri"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:background="@color/lightGrey"
-            android:onClick="onClick"
-            android:padding="5dp"
-            android:text="Cursuri"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prof_menu_avatar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-        <Button
-            android:id="@+id/sub_laboratoare"
-            android:layout_width="match_parent"
-            android:layout_height="35dp"
-            android:background="@color/lightPink"
-            android:onClick="onClick"
-            android:padding="5dp"
-            android:text="Laboratoare"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
-    </LinearLayout>
+            <Button
+                android:id="@+id/prof_cursuri"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightGrey"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Cursuri"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
+            <Button
+                android:id="@+id/prof_laboratoare"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightPink"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Laboratoare"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/prof_quiz"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightGrey"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Quiz"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/prof_forum"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightPink"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Forum"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/prof_leaderboard"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightGrey"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Leaderboard"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/prof_shop"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightPink"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Shop"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/prof_harta"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightGrey"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Harta"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/prof_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightPink"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Feedback"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/prof_raport"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/lightGrey"
+                android:onClick="onClick"
+                android:padding="5dp"
+                android:text="Raport progres / obiective"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

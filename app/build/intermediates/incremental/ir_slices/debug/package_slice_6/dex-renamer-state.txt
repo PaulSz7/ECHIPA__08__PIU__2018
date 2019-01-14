@@ -1,4 +1,4 @@
-#Mon Jan 14 19:44:23 EET 2019
-base.0=D\:\\PIU\\Folder\\ECHIPA__08__PIU__2018\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+#Mon Jan 14 21:03:13 EET 2019
+base.0=/media/attila/Data1/Semestrul7/PIU/StudentApp/app/build/intermediates/transforms/dexMerger/debug/6
 path.0=classes.dex
 renamed.0=classes.dex

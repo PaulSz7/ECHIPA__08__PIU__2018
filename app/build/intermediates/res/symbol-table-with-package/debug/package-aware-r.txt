@@ -835,6 +835,16 @@ id password
 id passwordError
 id passwordLabel
 id percent
+id prof_cursuri
+id prof_feedback
+id prof_forum
+id prof_harta
+id prof_laboratoare
+id prof_leaderboard
+id prof_menu_avatar
+id prof_quiz
+id prof_raport
+id prof_shop
 id progress_circular
 id progress_horizontal
 id question

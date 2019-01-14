@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\PIU\\Folder\\ECHIPA__08__PIU__2018\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "/media/attila/Data1/Semestrul7/PIU/StudentApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Socaci\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\3db5b881bcaf61ac9168e9bc791ae5ba\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/attila/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/03a5567bbe5309fa5af5d35176d31ea7/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Socaci\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\c667c11b43fdb8d023c0018ccb128c2f\\res\\values-v23\\values-v23.xml",
+                    "source": "/home/attila/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/5e1f8d642365e3f7877ea3cb1b7bd749/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
