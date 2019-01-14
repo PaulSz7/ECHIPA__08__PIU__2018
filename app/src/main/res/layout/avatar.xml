@@ -116,7 +116,7 @@
             android:layout_height="30dp"
             android:layout_alignEnd="@+id/tv_username"
             android:layout_alignBottom="@+id/iv_pointsIcon"
-            android:text="37.5" />
+            android:text="1050" />
 
     </RelativeLayout>
 

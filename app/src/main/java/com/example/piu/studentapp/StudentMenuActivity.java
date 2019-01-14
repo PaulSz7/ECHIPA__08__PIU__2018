@@ -31,6 +31,9 @@ public class StudentMenuActivity extends AppCompatActivity {
             case R.id.tv_forum:
                 myClass = ForumActivity.class;
                 break;
+            case R.id.sub_shop:
+                myClass = ShopActivity.class;
+                break;
             default:
                 myClass = LoginActivity.class;
                 break;
@@ -39,8 +42,6 @@ public class StudentMenuActivity extends AppCompatActivity {
         Intent intent = new Intent(this, myClass);
         startActivity(intent);
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -58,7 +59,6 @@ public class StudentMenuActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    /** NEW **/
     private void showSignOutDialog() {
         alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setMessage("You sure you wanna sign out?");

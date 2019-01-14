@@ -26,6 +26,7 @@
         </activity>
         <activity android:name=".QuestionActivity"/>
         <activity android:name=".ForumActivity"/>
+        <activity android:name=".ShopActivity"/>
     </application>
 
 </manifest>
