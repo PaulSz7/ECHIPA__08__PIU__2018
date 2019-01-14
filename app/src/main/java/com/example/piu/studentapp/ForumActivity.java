@@ -22,6 +22,8 @@ public class ForumActivity extends AppCompatActivity {
         setContentView(R.layout.forum_activity);
 
         tvQuest1 = findViewById(R.id.text_comment);
+        TextView tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
     }
 
     public void onClick(View view) {
