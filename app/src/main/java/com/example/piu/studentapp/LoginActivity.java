@@ -27,11 +27,11 @@ public class LoginActivity extends AppCompatActivity {
 
         boolean letLogin = true;
 
-        if (username.getText().length() < 1) {
+        if (username.getText().length() == 0) {
             usernameError.setText("Username cannot be empty!");
             letLogin = false;
         }
-        else if (username.getText().length() < 3) {
+        else if (username.getText().length() < 3 && username.getText().length() != 0) {
             usernameError.setText("Username is too short!");
             letLogin = false;
         }
@@ -39,11 +39,11 @@ public class LoginActivity extends AppCompatActivity {
             usernameError.setText("");
         }
 
-        if (password.getText().length() < 1) {
+        if (password.getText().length() == 0) {
             passwordError.setText("Password cannot be empty!");
             letLogin = false;
         }
-        else if (password.getText().length() < 3) {
+        else if (password.getText().length() < 3 && password.getText().length() != 0) {
             passwordError.setText("Password is too short!");
             letLogin = false;
         }
@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
         if (!letLogin) return;
 
         if (username.getText().toString().equals("profesor") && password.getText().toString().equals("password")) {
-            resultMsg.setText("Login successfull (profesor)!");
+            resultMsg.setText("Login successful (profesor)!");
             resultMsg.setTextColor(Color.GREEN);
 
             try {
@@ -67,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
 //            startActivity(intent);
         }
         else if (username.getText().toString().equals("student") && password.getText().toString().equals("password")) {
-            resultMsg.setText("Login successfull (student)!");
+            resultMsg.setText("Login successful (student)!");
             resultMsg.setTextColor(Color.GREEN);
 
             try {
@@ -75,6 +75,7 @@ public class LoginActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+
             Intent intent = new Intent(this, MainMenu.class);
             startActivity(intent);
         }

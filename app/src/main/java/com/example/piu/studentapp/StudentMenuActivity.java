@@ -43,6 +43,12 @@ public class StudentMenuActivity extends AppCompatActivity {
             case R.id.iv_notifIcon:
                 myClass = NotificationActivity.class;
                 break;
+            case R.id.sub_cursuri:
+                myClass = CourseActivity.class;
+                break;
+            case R.id.sub_quiz:
+                myClass = Quiz1Activity.class;
+                break;
             default:
                 myClass = LoginActivity.class;
                 break;
