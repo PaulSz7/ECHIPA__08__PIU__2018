@@ -28,6 +28,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.piu.studentapp.AttendanceChartActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.piu.studentapp.ReportsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.piu.studentapp.MainMenu" />
         <activity android:name="com.example.piu.studentapp.CheckInActivity" />
         <activity android:name="com.example.piu.studentapp.RatingActivity" />

@@ -35,7 +35,7 @@ public class CoursesActivity extends AppCompatActivity {
     }
 
     public void backClick(View view) {
-        Intent I=new Intent(CoursesActivity.this, LoginActivity.class);
+        Intent I=new Intent(CoursesActivity.this, StudentMenuActivity.class);
         startActivity(I);
     }
 }

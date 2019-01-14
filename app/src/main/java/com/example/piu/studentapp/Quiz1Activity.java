@@ -70,7 +70,7 @@ public class Quiz1Activity extends AppCompatActivity {
 
         pageN1.setText("1");
         pageN2.setText("3");
-        question.setText("Cate mere are Anaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa?");
+        question.setText("Cate mere are Ana?");
         answer1.setText("1");
         answer2.setText("5");
         answer3.setText("O taraba");

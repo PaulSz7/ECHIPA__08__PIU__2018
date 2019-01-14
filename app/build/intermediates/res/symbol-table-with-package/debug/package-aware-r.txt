@@ -765,6 +765,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id forever
+id generateButton
 id gone
 id group_divider
 id groups
@@ -821,6 +822,8 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id notificationsImage
+id objAttendanceButton
+id objAverageButton
 id okQuizButton
 id optionsList
 id packed
@@ -838,7 +841,7 @@ id question
 id radio
 id ratingBar
 id resultMsg
-id rg
+id rgroup
 id right
 id right_icon
 id right_side
@@ -958,6 +961,7 @@ id useLogo
 id username
 id usernameError
 id usernameLabel
+id weeks
 id withText
 id wrap
 id wrap_content
@@ -994,6 +998,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_attendance_chart
 layout activity_chat
 layout activity_course
 layout activity_courses
@@ -1006,6 +1011,7 @@ layout activity_profesor_menu
 layout activity_quiz_1
 layout activity_quiz_2
 layout activity_quiz_3
+layout activity_reports
 layout activity_shop
 layout activity_student_menu
 layout avatar

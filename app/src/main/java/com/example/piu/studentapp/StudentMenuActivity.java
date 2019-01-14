@@ -56,7 +56,7 @@ public class StudentMenuActivity extends AppCompatActivity {
                 myClass = NotificationActivity.class;
                 break;
             case R.id.sub_cursuri:
-                myClass = CourseActivity.class;
+                myClass = CoursesActivity.class;
                 break;
             case R.id.sub_quiz:
                 myClass = Quiz1Activity.class;
