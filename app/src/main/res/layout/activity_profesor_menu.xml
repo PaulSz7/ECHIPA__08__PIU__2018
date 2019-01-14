@@ -48,6 +48,19 @@
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/sub_rapoarte"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/lightGrey"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:text="Rapoarte prores"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
     </LinearLayout>
 
 </RelativeLayout>

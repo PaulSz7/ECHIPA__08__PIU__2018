@@ -672,6 +672,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable imageedit_1_4363037865
 drawable img_489991
+drawable media_7_saptamani
 drawable money
 drawable notification_action_background
 drawable notification_bg
@@ -686,6 +687,8 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notifications
 drawable notify_panel_notification_icon_bg
+drawable prezente_11_saptamani
+drawable prezente_4_saptamani
 drawable ranking
 drawable search
 drawable textview_border
@@ -725,7 +728,9 @@ id answer2
 id answer3
 id answer4
 id async
+id attendanceImage
 id avatarImage
+id averageImage
 id backButton
 id barrier
 id beginning
@@ -822,8 +827,6 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id notificationsImage
-id objAttendanceButton
-id objAverageButton
 id okQuizButton
 id optionsList
 id packed
@@ -893,6 +896,7 @@ id sub_harta
 id sub_laboratoare
 id sub_leaderboard
 id sub_quiz
+id sub_rapoarte
 id sub_shop
 id subjectSelect
 id submenuarrow
@@ -999,6 +1003,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_attendance_chart
+layout activity_average_chart
 layout activity_chat
 layout activity_course
 layout activity_courses

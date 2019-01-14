@@ -29,9 +29,12 @@ public class ProfesorMenuActivity extends AppCompatActivity {
     public void onClick(View view) {
         Class myClass;
         switch (view.getId()) {
-
+            case R.id.sub_rapoarte : {
+                myClass = ReportsActivity.class;
+                break;
+            }
             default:
-                myClass = LoginActivity.class;
+                myClass = ProfesorMenuActivity.class;
                 break;
         }
 
