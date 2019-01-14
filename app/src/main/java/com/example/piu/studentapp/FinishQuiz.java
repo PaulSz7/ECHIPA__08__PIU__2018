@@ -12,6 +12,8 @@ public class FinishQuiz extends AppCompatActivity {
     TextView totalPoints;
     TextView moneyWon;
 
+    int money;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,15 +32,27 @@ public class FinishQuiz extends AppCompatActivity {
         score.setText(String.format("%d", s));
         totalPoints.setText("3");
 
-        int money = s*200;
+        money = s*200;
         moneyWon.setText(String.format("%d", money));
 
-        Store.sold += money;
+        String oponentName = getIntent().getStringExtra("oponentName");
+        System.out.println("***********************" + oponentName);
+        if (oponentName != null) {
+            Store.setSold(oponentName, -money);
+        }
+
+        Store.setSold(Store.sold + money);
     }
 
     public void finishQuizClick(View view) {
-
-        Intent I = new Intent(FinishQuiz.this, StudentMenuActivity.class);
+        String oponentName = getIntent().getStringExtra("oponentName");
+        Intent I;
+        if (oponentName == null) {
+            I = new Intent(FinishQuiz.this, StudentMenuActivity.class);
+        }
+        else {
+            I = new Intent(FinishQuiz.this, LeaderboardActivity.class);
+        }
         I.putExtra("role","student");
         startActivity(I);
     }

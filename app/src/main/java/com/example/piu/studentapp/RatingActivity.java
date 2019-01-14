@@ -33,6 +33,26 @@ public class RatingActivity extends AppCompatActivity {
         tvProfessor = findViewById(R.id.tv_rate_professor);
         ivProfessor = findViewById(R.id.iv_prof_picture);
 
+<<<<<<< HEAD
+=======
+        TextView tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
+
+        addListenerOnRatingBar();
+        addListenerOnButton();
+    }
+
+    public void addListenerOnRatingBar() {
+
+        ratingBar = findViewById(R.id.ratingBar);
+        tvRatingResult = findViewById(R.id.txtRatingValue);
+
+        //if rating value is changed,
+        //display the current rating value in the result (textview) automatically
+        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            public void onRatingChanged(RatingBar ratingBar, float rating,
+                                        boolean fromUser) {
+>>>>>>> debf13aa8027a1069c27bf42401b5ef90e4f3204
 
         registerForContextMenu(tvProfessor);
     }

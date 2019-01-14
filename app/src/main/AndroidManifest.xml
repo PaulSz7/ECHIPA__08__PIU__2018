@@ -19,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".AttendanceChartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".ReportsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,11 +33,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainMenu" />
         <activity android:name=".CheckInActivity" />
         <activity android:name=".RatingActivity" />
-        <activity android:name=".StudentMenuActivity"></activity>
+        <activity android:name=".StudentMenuActivity" />
         <activity android:name=".QuestionActivity" />
         <activity android:name=".ForumActivity" />
         <activity android:name=".ShopActivity" />
@@ -95,7 +92,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ProfesorMenuActivity"></activity>
+        <activity android:name=".ProfesorMenuActivity" />
+        <activity android:name=".LeaderboardActivity"></activity>
     </application>
 
 </manifest>
