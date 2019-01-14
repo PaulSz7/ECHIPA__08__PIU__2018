@@ -704,6 +704,7 @@ id bottom
 id btnSubmit
 id btn_checkin
 id buttonPanel
+id buttonSend
 id center
 id center_horizontal
 id center_vertical
@@ -740,8 +741,10 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
+id imageView2
 id imageView3
-id imageView4
+id imageViewNotification
 id imageVieww
 id info
 id invisible
@@ -760,6 +763,8 @@ id line1
 id line3
 id linearLayout
 id linearLayout2
+id linearLayout3
+id linearLayout4
 id listMode
 id listView
 id list_item
@@ -841,12 +846,16 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
+id textMessage
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id textView2
 id textView3
 id textView4
+id textView5
+id textViewData
+id textViewMesaj
+id textViewName
 id textVieww
 id textVieww2
 id textVieww3

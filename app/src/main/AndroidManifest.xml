@@ -28,7 +28,9 @@
         <activity
             android:name=".ChatActivity"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name=".PrivateChatActivity"></activity>
+
+        <activity android:name=".PrivateChatActivity"
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

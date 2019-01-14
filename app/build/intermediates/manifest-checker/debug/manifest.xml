@@ -37,7 +37,9 @@
         <activity
             android:name="com.example.piu.studentapp.ChatActivity"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name="com.example.piu.studentapp.PrivateChatActivity" />
+        <activity
+            android:name="com.example.piu.studentapp.PrivateChatActivity"
+            android:windowSoftInputMode="adjustPan" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
