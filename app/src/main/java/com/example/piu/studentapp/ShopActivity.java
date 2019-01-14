@@ -52,7 +52,7 @@ public class ShopActivity extends AppCompatActivity {
                 int sold = Integer.parseInt(soldView.getText().toString());
 
                 if (sold >= itemList.get(position).price) {
-                    Store.sold = Store.sold - itemList.get(position).price;
+                    Store.setSold(Store.sold - itemList.get(position).price);
                     soldView.setText(Store.sold.toString());
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(parent.getContext());
