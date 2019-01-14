@@ -35,6 +35,9 @@ public class RatingActivity extends AppCompatActivity {
         tvProfessor = findViewById(R.id.tv_rate_professor);
         ivProfessor = findViewById(R.id.iv_prof_picture);
 
+        TextView tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
+
         addListenerOnRatingBar();
         addListenerOnButton();
     }
