@@ -1,6 +1,5 @@
 package com.example.piu.studentapp;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -39,7 +38,7 @@ public class Quiz3Activity extends AppCompatActivity {
         answer3 = findViewById(R.id.answer3);
         answer4 = findViewById(R.id.answer4);
 
-        rg  = (RadioGroup) findViewById(R.id.rg);
+        rg  = (RadioGroup) findViewById(R.id.rgroup);
 
         countDownTimer = new CountDownTimer(timeLeft,1000){
             @Override

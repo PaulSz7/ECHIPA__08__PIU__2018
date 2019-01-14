@@ -80,6 +80,7 @@ public class LoginActivity extends AppCompatActivity {
             Intent intent = new Intent(this, MainMenu.class);
             intent.putExtra("role", "student");
             startActivity(intent);
+
         }
         else {
             resultMsg.setText("Login failed\nUsername or password is incorrect!");
