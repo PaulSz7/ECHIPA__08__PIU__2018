@@ -63,8 +63,9 @@ public class LoginActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            Intent intent = new Intent(this, MainMenu.class);
-//            startActivity(intent);
+            Intent intent = new Intent(this, MainMenu.class);
+            intent.putExtra("role", "profesor");
+            startActivity(intent);
         }
         else if (username.getText().toString().equals("student") && password.getText().toString().equals("password")) {
             resultMsg.setText("Login successful (student)!");
@@ -77,6 +78,7 @@ public class LoginActivity extends AppCompatActivity {
             }
 
             Intent intent = new Intent(this, MainMenu.class);
+            intent.putExtra("role", "student");
             startActivity(intent);
         }
         else {
