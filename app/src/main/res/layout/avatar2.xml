@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,51 +15,73 @@
         android:background="@drawable/textview_border">
 
 
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginEnd="-45dp"
-            android:background="@drawable/black_border"
-            android:src="@drawable/forum" />
-
-        <TextView
-            android:id="@+id/tv_forum"
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:clickable="true"
-            android:onClick="onClick"
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/disappear"
+            android:layout_width="169dp"
+            android:layout_height="127dp"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="65dp"
-            android:layout_marginTop="30dp"
-            android:background="@color/lightPink"
-            android:padding="10dp"
-            android:text="Forum"
-            android:textAlignment="center"
-            android:textSize="17sp" />
-
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="80dp"
-            android:background="@drawable/black_border"
-            android:src="@drawable/ranking" />
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="13dp">
 
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="65dp"
-            android:layout_marginTop="80dp"
-            android:background="@color/lightPink"
-            android:padding="10dp"
-            android:text="Clasament"
-            android:textAlignment="center"
-            android:textSize="15sp" />
+            <TextView
+                android:id="@+id/tv_leaderboard"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/lightPink"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:padding="10dp"
+                android:text="Clasament"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                app:layout_constraintTop_toBottomOf="@+id/tv_forum" />
 
+            <TextView
+                android:id="@+id/tv_forum"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/lightPink"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:padding="10dp"
+                android:text="Forum"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                app:layout_constraintStart_toEndOf="@+id/imageView6"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/black_border"
+                android:src="@drawable/ranking"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/black_border"
+                android:src="@drawable/forum"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
 
         <TextView
             android:id="@+id/tv_username"

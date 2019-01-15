@@ -34,6 +34,12 @@ public class ShopListAdapter extends ArrayAdapter<ShopItem> {
 
         TextView price = (TextView) myRow.findViewById(R.id.shop_item_price);
         price.setText(new Integer(shopList.get(position).price).toString());
+
+        if (shopList.get(position).price == 0) {
+            price.setText("+");
+            View coin = myRow.findViewById(R.id.coin);
+            coin.setVisibility(View.INVISIBLE);
+        }
         return	myRow;
     }
 }

@@ -54,6 +54,10 @@ public class MainMenu extends AppCompatActivity {
         role = getIntent().getStringExtra("role");
         TextView username = (TextView) findViewById(R.id.tv_username);
         username.setText(role);
+
+        View disappear = findViewById(R.id.disappear);
+        disappear.setVisibility(View.INVISIBLE);
+
     }
 
     public void onClick(View view) {

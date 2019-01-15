@@ -29,8 +29,32 @@ public class ProfesorMenuActivity extends AppCompatActivity {
     public void onClick(View view) {
         Class myClass;
         switch (view.getId()) {
-            case R.id.sub_rapoarte : {
+            case R.id.prof_raport : {
                 myClass = ReportsActivity.class;
+                break;
+            }
+            case R.id.tv_forum : {
+                myClass = ForumActivity.class;
+                break;
+            }
+            case R.id.prof_forum : {
+                myClass = ForumActivity.class;
+                break;
+            }
+            case R.id.tv_leaderboard : {
+                myClass = LeaderboardActivity.class;
+                break;
+            }
+            case R.id.prof_leaderboard : {
+                myClass = LeaderboardActivity.class;
+                break;
+            }
+            case R.id.prof_cursuri : {
+                myClass = CoursesActivity.class;
+                break;
+            }
+            case R.id.prof_shop : {
+                myClass = ProfesorShopActivity.class;
                 break;
             }
             default:

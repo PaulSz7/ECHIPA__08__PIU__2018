@@ -41,7 +41,7 @@ public class StudentMenuActivity extends AppCompatActivity {
                 myClass = CheckInActivity.class;
                 break;
             case R.id.sub_feedback:
-                myClass = RatingActivity.class;
+                myClass = FeedbackActivity.class;
                 break;
             case R.id.tv_forum:
                 myClass = ForumActivity.class;
@@ -65,6 +65,9 @@ public class StudentMenuActivity extends AppCompatActivity {
                 myClass = LaboratorActivity.class;
                 break;
             case R.id.sub_leaderboard:
+                myClass = LeaderboardActivity.class;
+                break;
+            case R.id.tv_leaderboard:
                 myClass = LeaderboardActivity.class;
                 break;
             default:

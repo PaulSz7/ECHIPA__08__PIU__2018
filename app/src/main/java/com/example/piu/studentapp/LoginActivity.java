@@ -18,6 +18,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Store.populateLeaderboard();
+        Store.populateShopList();
     }
 
     public void loginClick(View view) {
@@ -67,6 +68,7 @@ public class LoginActivity extends AppCompatActivity {
             }
             Intent intent = new Intent(this, MainMenu.class);
             intent.putExtra("role", "profesor");
+            Store.role = "profesor";
             startActivity(intent);
         }
         else if (username.getText().toString().equals("student") && password.getText().toString().equals("parola")) {
@@ -81,6 +83,7 @@ public class LoginActivity extends AppCompatActivity {
 
             Intent intent = new Intent(this, MainMenu.class);
             intent.putExtra("role", "student");
+            Store.role = "student";
             startActivity(intent);
 
         }

@@ -67,6 +67,7 @@ public class ReportsActivity extends AppCompatActivity {
 
     public void backClick(View view) {
         Intent I=new Intent(ReportsActivity.this, ProfesorMenuActivity.class);
+        I.putExtra("role","profesor");
         startActivity(I);
     }
 }

@@ -20,11 +20,12 @@ public class LabWork extends AppCompatActivity {
 
     public void buttonEval(View view){
         layoutGrade.setVisibility(View.VISIBLE);
-        Store.sold += 800;
+        Store.setSold(Store.sold + 800);
     }
 
     public void buttonBack(View view){
         Intent I = new Intent(LabWork.this, LaboratorActivity.class);
+        I.putExtra("role","student");
         startActivity(I);
     }
 }

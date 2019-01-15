@@ -35,6 +35,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.piu.studentapp.AverageChartActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.piu.studentapp.ReportsActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +51,6 @@
         </activity>
         <activity android:name="com.example.piu.studentapp.MainMenu" />
         <activity android:name="com.example.piu.studentapp.CheckInActivity" />
-        <activity android:name="com.example.piu.studentapp.RatingActivity" />
         <activity android:name="com.example.piu.studentapp.StudentMenuActivity" />
         <activity android:name="com.example.piu.studentapp.QuestionActivity" />
         <activity android:name="com.example.piu.studentapp.ForumActivity" />
@@ -102,6 +108,13 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.piu.studentapp.ProfesorMenuActivity" />
+        <activity android:name="com.example.piu.studentapp.LaboratorActivity" />
+        <activity android:name="com.example.piu.studentapp.LabGuide" />
+        <activity android:name="com.example.piu.studentapp.LabRequirements" />
+        <activity android:name="com.example.piu.studentapp.LabWork" />
+        <activity android:name="com.example.piu.studentapp.LeaderboardActivity" />
+        <activity android:name="com.example.piu.studentapp.ProfesorShopActivity" />
+        <activity android:name="com.example.piu.studentapp.NewShopItemActivity" />
     </application>
 
 </manifest>

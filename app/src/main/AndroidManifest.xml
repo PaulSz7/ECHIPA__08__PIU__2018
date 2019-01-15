@@ -26,8 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity android:name=".AverageChartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +42,6 @@
         </activity>
         <activity android:name=".MainMenu" />
         <activity android:name=".CheckInActivity" />
-        <activity android:name=".RatingActivity" />
         <activity android:name=".StudentMenuActivity" />
         <activity android:name=".QuestionActivity" />
         <activity android:name=".ForumActivity" />
@@ -105,10 +102,10 @@
         <activity android:name=".LaboratorActivity" />
         <activity android:name=".LabGuide" />
         <activity android:name=".LabRequirements" />
-        <activity android:name=".LabWork"></activity>
-        <activity android:name=".LeaderboardActivity"></activity>
-
-        <activity android:name=".LeaderboardActivity"></activity>
+        <activity android:name=".LabWork" />
+        <activity android:name=".LeaderboardActivity" />
+        <activity android:name=".ProfesorShopActivity" />
+        <activity android:name=".NewShopItemActivity"></activity>
     </application>
 
 </manifest>

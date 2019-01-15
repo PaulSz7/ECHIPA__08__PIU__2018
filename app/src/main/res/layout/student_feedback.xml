@@ -7,13 +7,15 @@
 
     <TextView
         android:id="@+id/tv_rate_title"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_centerHorizontal="true"
-        android:text="RATE"
+        android:layout_above="@+id/ratingStar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="-70dp"
+        android:text="Evalueaza"
         android:textSize="40sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
 
     <ImageView
@@ -22,20 +24,20 @@
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="51dp"
+        android:layout_marginStart="33dp"
         android:layout_marginTop="79dp"
         android:src="@drawable/blank_profile_picture_973460_640" />
 
 
     <TextView
         android:id="@+id/tv_name_prof"
-        android:layout_width="130dp"
+        android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="97dp"
-        android:layout_marginTop="79dp"
-        android:text="Profesor 1 "
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="83dp"
+        android:text="Teodor Stefanut"
         android:textSize="20sp" />
 
     <TextView
@@ -43,13 +45,13 @@
         android:layout_width="60dp"
         android:layout_height="30dp"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="224dp"
+        android:layout_marginStart="267dp"
         android:layout_marginTop="80dp"
+        android:background="@drawable/textview_border"
         android:text=""
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textSize="20sp"
-        android:background="@drawable/textview_border"/>
+        android:textSize="20sp" />
 
 
     <RatingBar
@@ -87,7 +89,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="20dp"
             android:layout_marginTop="7dp"
-            android:text="Student1:"
+            android:text="Alina Pop:"
             android:textSize="20sp"
             android:textStyle="italic" />
 
@@ -100,7 +102,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="49dp"
             android:layout_marginTop="40dp"
-            android:text="The teacher is very good at teaching and explaining."
+            android:text="Profesorul este foarte bun la predare si explicare."
             android:textSize="15sp" />
 
         <TextView
@@ -111,7 +113,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="20dp"
             android:layout_marginTop="96dp"
-            android:text="Student2:"
+            android:text="Florin Coman:"
             android:textSize="20sp"
             android:textStyle="italic" />
 
@@ -124,7 +126,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="50dp"
             android:layout_marginTop="126dp"
-            android:text="He's absolutely awesome at teaching but sometimes the course matter seems a little boring."
+            android:text="Este absolut minunat la predare, dar uneori materia cursului pare putin plictisitoare."
             android:textSize="15sp" />
 
 
@@ -173,7 +175,7 @@
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_marginTop="400dp"
-        android:hint="Feedback..."
+        android:hint="Recenzie..."
         android:textAlignment="center"
         android:textStyle="italic" />
 
@@ -186,6 +188,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="141dp"
         android:layout_marginTop="457dp"
-        android:text="Submit" />
+        android:text="Confirma" />
 
 </RelativeLayout>

@@ -37,7 +37,7 @@ public class CheckInActivity extends AppCompatActivity implements LocationListen
     TextView tvAddress = null;
     Button btnCheckIn = null;
 
-    Address currentAddress;
+    Address currentAddress ;
 
     private AlertDialog alertDialog;
 
@@ -45,6 +45,9 @@ public class CheckInActivity extends AppCompatActivity implements LocationListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.checkin_activity);
+
+        TextView tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
 
         tvAddress = findViewById(R.id.tv_address);
         btnCheckIn = findViewById(R.id.btn_checkin);

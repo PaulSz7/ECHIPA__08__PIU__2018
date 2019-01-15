@@ -19,8 +19,6 @@ import java.util.List;
 
 public class ShopActivity extends AppCompatActivity {
 
-    List<ShopItem> itemList;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,16 +27,8 @@ public class ShopActivity extends AppCompatActivity {
         TextView tvPoints = findViewById(R.id.tv_points);
         tvPoints.setText(Store.sold.toString());
 
-        itemList = new ArrayList<ShopItem>();
-
-        itemList.add(new ShopItem("+ 1 Punct la examen", 5000));
-        itemList.add(new ShopItem("+ 1 Prezenta la curs", 1000));
-        itemList.add(new ShopItem("+ 1 Punct la colocviu", 3000));
-        itemList.add(new ShopItem("+ 1 Saptamana la tema 3", 1800));
-
-
         GridView gv = findViewById(R.id.shop_grid);
-        ShopListAdapter shopListAdapter = new ShopListAdapter(this, itemList);
+        ShopListAdapter shopListAdapter = new ShopListAdapter(this, Store.shopList);
 
         // Data bind GridView with ArrayAdapter (String Array elements)
         gv.setAdapter(shopListAdapter);
@@ -51,8 +41,8 @@ public class ShopActivity extends AppCompatActivity {
                 TextView soldView = findViewById(R.id.tv_points);
                 int sold = Integer.parseInt(soldView.getText().toString());
 
-                if (sold >= itemList.get(position).price) {
-                    Store.setSold(Store.sold - itemList.get(position).price);
+                if (sold >= Store.shopList.get(position).price) {
+                    Store.setSold(Store.sold - Store.shopList.get(position).price);
                     soldView.setText(Store.sold.toString());
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(parent.getContext());

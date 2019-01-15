@@ -21,6 +21,9 @@ public class LeaderboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leaderboard);
 
+        TextView tvPoints = findViewById(R.id.tv_points);
+        tvPoints.setText(Store.sold.toString());
+
         ListView lv = findViewById(R.id.leaderboard);
 
         Collections.sort(Store.leaderboard, new Comparator<LeaderboardItem>() {

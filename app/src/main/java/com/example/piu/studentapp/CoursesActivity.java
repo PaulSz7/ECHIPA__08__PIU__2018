@@ -35,7 +35,16 @@ public class CoursesActivity extends AppCompatActivity {
     }
 
     public void backClick(View view) {
-        Intent I=new Intent(CoursesActivity.this, StudentMenuActivity.class);
+        Class myClass;
+        if (Store.role.equals("profesor")) {
+            myClass = ProfesorMenuActivity.class;
+        }
+        else {
+            myClass = StudentMenuActivity.class;
+        }
+
+        Intent I=new Intent(CoursesActivity.this, myClass);
+        I.putExtra("role",Store.role);
         startActivity(I);
     }
 }

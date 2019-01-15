@@ -50,6 +50,10 @@ public class LeaderboardAdapter extends ArrayAdapter<LeaderboardItem> {
             btn.setVisibility(View.INVISIBLE);
         }
 
+        if (Store.role.equals("profesor")) {
+            btn.setVisibility(View.INVISIBLE);
+        }
+
         if (Store.numeStudent.equals((leaderboard.get(position).name))) {
             pos.setTypeface(null, Typeface.BOLD);
             name.setTypeface(null, Typeface.BOLD);
