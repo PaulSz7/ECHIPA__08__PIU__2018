@@ -43,7 +43,7 @@ public class ChatActivity extends AppCompatActivity {
 
         SearchView searchView = findViewById(R.id.searchContact);
         searchView.setActivated(true);
-        searchView.setQueryHint("Search contact");
+        searchView.setQueryHint("Cauta utilizator");
         searchView.onActionViewExpanded();
         searchView.setIconified(false);
         searchView.clearFocus();
@@ -103,18 +103,18 @@ public class ChatActivity extends AppCompatActivity {
     /** NEW **/
     private void showSignOutDialog() {
         alertDialog = new AlertDialog.Builder(this).create();
-        alertDialog.setMessage("You sure you wanna sign out?");
-        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "YES", new DialogInterface.OnClickListener() {
+        alertDialog.setMessage("Esti sigur ca vrei sa te deconectezi?");
+        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Nu", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                alertDialog.dismiss();
+            }
+        });
+        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "Da", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                 finish();
-            }
-        });
-        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "NO", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                alertDialog.dismiss();
             }
         });
         alertDialog.show();

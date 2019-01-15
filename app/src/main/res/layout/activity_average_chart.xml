@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/attendanceImage"
+        android:id="@+id/averageImage"
         android:layout_width="match_parent"
         android:layout_height="260dp"
         android:layout_marginStart="8dp"

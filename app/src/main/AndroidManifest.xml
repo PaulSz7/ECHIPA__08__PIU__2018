@@ -26,6 +26,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity android:name=".AverageChartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ReportsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -93,6 +102,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfesorMenuActivity" />
+        <activity android:name=".LaboratorActivity" />
+        <activity android:name=".LabGuide" />
+        <activity android:name=".LabRequirements" />
+        <activity android:name=".LabWork"></activity>
+        <activity android:name=".LeaderboardActivity"></activity>
+
         <activity android:name=".LeaderboardActivity"></activity>
     </application>
 

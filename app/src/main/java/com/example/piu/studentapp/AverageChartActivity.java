@@ -9,23 +9,19 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-public class AttendanceChartActivity extends AppCompatActivity {
+public class AverageChartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_attendance_chart);
-        final ImageView a = (ImageView) findViewById(R.id.attendanceImage);
+        setContentView(R.layout.activity_average_chart);
+        final ImageView a = (ImageView) findViewById(R.id.averageImage);
 
         ReportsActivity nrWeeks1 = new ReportsActivity();
         int nrWeeks = nrWeeks1.weeksNumber();
 
         switch (nrWeeks){
-            case 4 : {
-                a.setImageDrawable(getDrawable(R.drawable.prezente_4_saptamani));
-                break;
-            }
-            case 11: {
-                a.setImageDrawable(getDrawable(R.drawable.prezente_11_saptamani));
+            case 7 : {
+                a.setImageDrawable(getDrawable(R.drawable.media_7_saptamani));
                 break;
             }
             default:{
@@ -36,7 +32,7 @@ public class AttendanceChartActivity extends AppCompatActivity {
     }
 
     public void backClick(View view) {
-        Intent I=new Intent(AttendanceChartActivity.this, ReportsActivity.class);
+        Intent I=new Intent(AverageChartActivity.this, ReportsActivity.class);
         startActivity(I);
     }
 }
